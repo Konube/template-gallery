@@ -42,6 +42,7 @@
       "type": "string",
       "defaultValue": "VS-2013-Comm-VSU5-AzureSDK-2.8-WS2012R2",
       "allowedValues": [
+		"VS-2013-Comm-VSU5-AzureSDK-2.8-WS2012R2",
 		"VS-2015-Pro-VSU1-AzureSDK-2.8-W10T-1511-N-x64",
 		"VS-2015-Pro-AzureSDK-2.8-Cordova-Win8.1-N-x64"
       ],
