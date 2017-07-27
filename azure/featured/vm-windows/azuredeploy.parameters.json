@@ -5,6 +5,9 @@
     "adminUsername": {
       "value": "admin123"
     },
+	"virtualMachineName": {
+	 "value": "SimpleWindowsVM"
+	},
     "adminPassword": {
       "value": "GEN-PASSWORD"
     },
