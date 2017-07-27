@@ -5,7 +5,7 @@
     "adminUsername": {
       "value": "admin123"
     },
-	"virtualMachineName": {
+	"vmName": {
 	 "value": "SimpleWindowsVM"
 	},
     "adminPassword": {
