@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Deploy a SUSE Linux Enterprise Server VM",
+  "description": "This template allows you to deploy a SUSE Linux Enterprise Server VM using a few different options for the Windows version, using the latest patched version. This will deploy in respective location.",
+  "summary": "This template takes a minimum amount of parameters and deploys a SUSE Linux Enterprise Server VM, using the latest patched version.",
+  "githubUsername": "coreysa",
+  "dateUpdated": "2015-12-21"
+}
