@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Deploy a Ubuntu 15.04 Core Stable(Snappy) VM",
+  "description": "This template allows you to deploy a Ubuntu 15.04 Core Stable(Snappy) VM , using the latest patched version. This will deploy in respective location.",
+  "summary": "This template takes a minimum amount of parameters and deploys a Ubuntu 15.04 Core Stable(Snappy) VM, using the latest patched version.",
+  "githubUsername": "coreysa",
+  "dateUpdated": "2015-12-21"
+}
