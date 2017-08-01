@@ -108,7 +108,7 @@
     "dataDisk1VhdName": "datadisk1",
     "imagePublisher": "CoreOS",
     "imageOffer": "CoreOS",
-	"windowsOSVersion" : "Stable"
+	"windowsOSVersion" : "Stable",
     "OSDiskName": "osdiskforwindowssimple",
     "nicName": "myVMNic",
     "addressPrefix": "10.0.0.0/16",
