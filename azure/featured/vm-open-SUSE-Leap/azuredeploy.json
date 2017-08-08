@@ -105,7 +105,7 @@
   "variables": {
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
     "sizeOfDiskInGB": "100",
-    "dataDisk1VhdName": "datadisk1",
+    "dataDisk1VhdName": "[concat('datadisk1',uniquestring(resourceGroup().id))]",
     "imagePublisher": "SUSE",
     "imageOffer": "openSUSE-Leap",
 	"windowsOSVersion" : "42.3",
