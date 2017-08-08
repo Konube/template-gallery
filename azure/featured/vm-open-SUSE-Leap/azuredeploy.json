@@ -109,7 +109,7 @@
     "imagePublisher": "SUSE",
     "imageOffer": "openSUSE-Leap",
 	"windowsOSVersion" : "42.3",
-    "OSDiskName": "osdiskforwindowssimple",
+    "OSDiskName": "[concat('osdisk',parameters('vmName'))]",
     "nicName": "[concat('myVMNic',uniquestring(resourceGroup().id))]",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "[concat('Subnet',uniquestring(resourceGroup().id))]",
