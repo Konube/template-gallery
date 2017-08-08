@@ -103,7 +103,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat(uniquestring(resourceGroup().id), parameters('vmName'))]",
+    "storageAccountName": "[toLower(concat(uniquestring(resourceGroup().id), parameters('vmName')))]",
     "sizeOfDiskInGB": "100",
     "dataDisk1VhdName": "[concat('datadisk1',uniquestring(deployment().name ))]",
     "imagePublisher": "SUSE",
