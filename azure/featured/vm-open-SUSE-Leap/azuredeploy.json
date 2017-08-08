@@ -115,7 +115,7 @@
     "subnetName": "[concat('Subnet',uniquestring(resourceGroup().id))]",
     "subnetPrefix": "10.0.0.0/24",
     "storageAccountType": "Standard_LRS",
-    "publicIPAddressName": "myPublicIP",
+    "publicIPAddressName": "[concat('myPublicIP',uniquestring(resourceGroup().id))]",
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
     "virtualNetworkName": "[concat('MyVNET',uniquestring(resourceGroup().id))]",
