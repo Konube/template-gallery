@@ -17,7 +17,7 @@
     "adminPassword": {
       "type": "securestring",
       "metadata": {
-        "description": "Password must have 3 of the following : 1 lower case character, 1 upper case character , 1 number, and 1 special character that is not \ or –."
+        "description": "Password for the Virtual Machine."
       }
     },
     "dnsLabelPrefix": {
